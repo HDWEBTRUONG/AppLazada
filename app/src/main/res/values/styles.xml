@@ -1,0 +1,18 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/bgLogo</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <style name="menu_item" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+    <style name="capfalse" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+    <declare-styleable name="PasswordEditText">
+        <attr name="useStrike" format="boolean"/>
+        <attr name="useValidate" format="boolean"/>
+    </declare-styleable>
+</resources>

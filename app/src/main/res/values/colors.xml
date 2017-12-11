@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/black</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgToolbar">#183545</color>
+    <color name="white">#ffffff</color>
+    <color name="bgLogo">#e15f09</color>
+    <color name="black">#000</color>
+    <color name="gray">#ccc</color>
+    <color name="facebook">#2c7ce6</color>
+    <color name="google">#ed0f0f</color>
+
+
+</resources>

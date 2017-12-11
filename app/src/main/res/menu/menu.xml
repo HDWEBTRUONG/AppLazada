@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title=""
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/it_giohang"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        android:title=""
+        app:actionLayout="@layout/custom_item_giohang"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/it_listmenu"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/it_dangnhap"
+                android:icon="@drawable/ic_favorite_border_black_24dp"
+                android:title="Đăng nhập"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/it_donhang"
+                android:icon="@drawable/ic_content_paste_black_24dp"
+                android:title="Đơn hàng của tôi"
+                app:showAsAction="ifRoom" />
+            <item
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Cài đặt"
+            app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/it_DangXuat"
+                android:icon="@drawable/ic_logout"
+                android:title="Đăng xuất"
+                android:visible="false" />
+        </menu>
+
+    </item>
+</menu>

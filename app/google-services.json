@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "333959886988",
+    "project_id": "loginlazada-ed04b"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333959886988:android:fd87399700c5f40b",
+        "android_client_info": {
+          "package_name": "com.example.t420.applazada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333959886988-be0lt332menod4ga32ibcjso7liehccu.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "333959886988-mk16gv5b3ug03835liotukk0urd6bppe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.t420.applazada",
+            "certificate_hash": "7ff9dd2d7adb67505bf11c79b9464f4f94f38eca"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiPezTi2GD428EoKt61bgngcFZmwwOWZQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
